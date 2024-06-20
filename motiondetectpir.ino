@@ -20,3 +20,4 @@ void loop()
     digitalWrite(RELAY_PIN, HIGH);    
   }
 } 
+// This code is for motion detecting sensor
