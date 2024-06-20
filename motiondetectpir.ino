@@ -21,3 +21,4 @@ void loop()
   }
 } 
 // This code is for motion detecting sensor
+// if motion is detected, then sensor value would be set to high
