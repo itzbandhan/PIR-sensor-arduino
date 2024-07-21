@@ -6,8 +6,7 @@ void setup() {
   pinMode(RELAY_PIN, OUTPUT);
   pinMode(SENSOR_PIN, INPUT);  
 }
-void loop() 
-{
+void loop() {
   int sensorValue = digitalRead(SENSOR_PIN);
 
   if (sensorValue == HIGH)
