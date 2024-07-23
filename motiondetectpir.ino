@@ -1,5 +1,8 @@
 #define SENSOR_PIN 2
 #define RELAY_PIN 3
+// This code is for motion detecting sensor
+// if motion is detected, the digitalWrite(RELAY_PIN, HIGH);   code is executed
+// otherwise   digitalWrite(RELAY_PIN, LOW);   is executed
 // follow me on github : https://github.com/itzbandhan/
 // star this repo
 void setup() {
@@ -15,7 +18,5 @@ void loop() {
     digitalWrite(RELAY_PIN, HIGH);    
   }
 } 
-// This code is for motion detecting sensor
-// if motion is detected, the digitalWrite(RELAY_PIN, HIGH);   code is executed
-// otherwise   digitalWrite(RELAY_PIN, LOW);   is executed
+
 
