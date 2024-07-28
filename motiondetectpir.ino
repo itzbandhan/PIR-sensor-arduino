@@ -17,6 +17,5 @@ void loop() {
     digitalWrite(RELAY_PIN, HIGH);    
   }
 } 
-
 // follow me on github : https://github.com/itzbandhan/
 // star this repo
