@@ -12,8 +12,7 @@ void loop() {
   int sensorValue = digitalRead(SENSOR_PIN);
   if (sensorValue == HIGH){
     digitalWrite(RELAY_PIN, LOW); 
-  }
-  else{
+  } else{
     digitalWrite(RELAY_PIN, HIGH);    
   }
 } 
