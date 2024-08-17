@@ -1,1 +1,1 @@
-This is the code for the PIR arduino 
+This is the code for the PIR arduino project
